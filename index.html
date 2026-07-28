@@ -29,7 +29,7 @@ body{
 
     font-family:'Noto Sans Devanagari',sans-serif;
 
-    background:#de9aac;
+    background:#c08bb9;
 }
 
 /* ---------------- Ticket ---------------- */
@@ -147,7 +147,8 @@ body{
 
     border-radius:50%;
 
-    background:#de9aac;
+    background:#f96fe6;
+
 
      
 }
@@ -271,19 +272,22 @@ body{
 
 .button{
 
-    height:54px;
+    height:52px;
 
     display:flex;
     justify-content:center;
     align-items:center;
+    gap:10px;
 
-    border:2px solid #2fa84f;
-    border-radius:10px;
+    background:#ffffff;
+    border:1.5px solid #0e8543;
+    border-radius:12px;
 
-    color:#2fa84f;
+    color:#0e8543;
 
-    font-size:18px;
-
+    font-size:17px;
+    font-weight:1000;
+    cursor:pointer;
 
 }
 
@@ -364,7 +368,20 @@ body{
         </div>
 
         <div class="button">
-            ⌗&nbsp;&nbsp;Show QR code
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.75" y="0.75" width="7.5" height="7.5" rx="1" stroke="#0e8543" stroke-width="1.5"/>
+                <rect x="2.75" y="2.75" width="3.5" height="3.5" fill="#0e8543"/>
+                <rect x="13.75" y="0.75" width="7.5" height="7.5" rx="1" stroke="#0e8543" stroke-width="1.5"/>
+                <rect x="15.75" y="2.75" width="3.5" height="3.5" fill="#0e8543"/>
+                <rect x="0.75" y="13.75" width="7.5" height="7.5" rx="1" stroke="#0e8543" stroke-width="1.5"/>
+                <rect x="2.75" y="15.75" width="3.5" height="3.5" fill="#0e8543"/>
+                <rect x="13.5" y="13.5" width="3" height="3" fill="#0e8543"/>
+                <rect x="17.5" y="13.5" width="3" height="3" fill="#0e8543"/>
+                <rect x="13.5" y="17.5" width="3" height="3" fill="#0e8543"/>
+                <rect x="17.5" y="17.5" width="3" height="3" fill="#0e8543"/>
+                <rect x="15.5" y="15.5" width="2" height="2" fill="#0e8543"/>
+            </svg>
+            <span>Show QR code</span>
         </div>
     </div>
 
